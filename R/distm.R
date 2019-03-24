@@ -31,7 +31,7 @@ distm <- function(x, y, fun=distGeo) {
 	n = nrow(x)
 	m = nrow(y)
 	
-	dm = matrix(ncol=m, nrow=n)
+	dm = matrix(ncol=m, nrow=n)  adsdasd
 	for (i in 1:n) {
 		dm[i,] = fun(x[i,], y)
 	}
